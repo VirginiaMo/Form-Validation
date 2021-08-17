@@ -5,9 +5,51 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+textarea{
+  font-family: inherit;
+  resize: none;
+  padding-left: 5px;
+  border-color: black;
+  border-radius: 5px;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  height: 100vw;
+  width:75vw;
+  margin-left: 30px;
+  
+
+}
+.submitBtn{
+
+  height: 2.2rem;
+  width: 5rem;
+  margin-top: 25px;
+  border-color: black;
+  border-radius: 3px;
+  border-width: 4px;
+
+}
+input{
+  height: 3rem;
+  margin-bottom: 25px;
+  padding-left: 5px;
+  border-color: black;
+  border-radius: 5px;
+  
+}
+h1{
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-size: 6vw;
+  margin-left: 30px;
+  color:crimson;
 }
